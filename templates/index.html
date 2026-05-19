@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Automation Cyber-Lab</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .neon-blue { text-shadow: 0 0 8px rgba(34, 211, 238, 0.5); }
+        .msg-anim {
+            animation: fadeIn 0.2s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-mono selection:bg-red-600 selection:text-white scroll-smooth">
+
+    <nav class="border-b-4 border-blue-900 bg-black sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="text-lg font-black tracking-widest text-cyan-400 neon-blue">
+                // GENIUS.NET
+            </div>
+            <div class="flex space-x-6 text-xs uppercase font-bold tracking-wider text-zinc-300">
+                <a href="#services" class="hover:text-cyan-400 transition">Услуги</a>
+                <a href="#portfolio" class="hover:text-red-500 transition">Кейсы</a>
+                <a href="#contact" class="hover:text-white transition">Контакты</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="max-w-4xl mx-auto px-4 pt-28 pb-24 text-center">
+        <div class="inline-block px-4 py-2 bg-zinc-950 border-4 border-cyan-400 text-cyan-400 text-xs font-black uppercase tracking-widest mb-8">
+            STATUS: ACTIVE // CORE SYSTEM OVERRIDE
+        </div>
+        
+        <h1 class="text-4xl md:text-5xl font-black tracking-tight text-white uppercase leading-tight">
+            Автоматизация процессов.<br>Разработка и интеграция ИИ.
+        </h1>
+        
+        <p class="mt-6 text-sm text-zinc-300 max-w-xl mx-auto leading-relaxed font-sans">
+            Проектирование и развертывание автономных скриптов, парсеров данных, умных ИИ-агентов и отказоустойчивых бэкенд-архитектур для вашего бизнеса.
+        </p>
+        
+        <div class="mt-12 flex flex-col sm:flex-row justify-center gap-6 px-4">
+            <a href="#contact" class="px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-black text-sm uppercase tracking-wider transition border-4 border-white shadow-lg">
+                [ Обсудить задачу ]
+            </a>
+            <a href="#portfolio" class="px-8 py-4 bg-zinc-950 hover:bg-zinc-900 text-cyan-400 font-black text-sm uppercase tracking-wider border-4 border-blue-900 transition">
+                Открыть архив кейсов
+            </a>
+        </div>
+    </section>
+
+    <section id="services" class="max-w-6xl mx-auto px-4 py-24 border-t-4 border-zinc-900">
+        <div class="mb-16 border-l-8 border-cyan-400 pl-4">
+            <h2 class="text-2xl font-black tracking-widest uppercase text-white">Спектр услуг // Разработки</h2>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-black border-4 border-red-600 p-6 rounded-none">
+                <div class="text-zinc-500 text-xs font-bold mb-3"># MOD_01 // AGENTS</div>
+                <h3 class="text-lg font-black mb-3 uppercase text-white border-b-2 border-zinc-900 pb-2">ИИ-Боты & Ассистенты</h3>
+                <p class="text-zinc-300 text-xs font-sans leading-relaxed">Интеграция нейросетей в Telegram. Автоматизация клиентской поддержки, генерация контента, квалификация лидов и умные воронки продаж.</p>
+            </div>
+            <div class="bg-black border-4 border-blue-900 p-6 rounded-none">
+                <div class="text-zinc-500 text-xs font-bold mb-3"># MOD_02 // DATA</div>
+                <h3 class="text-lg font-black mb-3 uppercase text-white border-b-2 border-zinc-900 pb-2">Парсинг & Аналитика</h3>
+                <p class="text-zinc-300 text-xs font-sans leading-relaxed">Сбор данных высокой сложности. Многопоточный парсинг, очистка, фильтрация и структурирование информации средствами Pandas и выгрузка в Excel/БД.</p>
+            </div>
+            <div class="bg-black border-4 border-blue-900 p-6 rounded-none">
+                <div class="text-zinc-500 text-xs font-bold mb-3"># MOD_03 // EXEC</div>
+                <h3 class="text-lg font-black mb-3 uppercase text-white border-b-2 border-zinc-900 pb-2">Кастомный Бэкенд</h3>
+                <p class="text-zinc-300 text-xs font-sans leading-relaxed">Создание быстрых серверных приложений и REST API на FastAPI / Django. Безопасная архитектура, интеграция сторонних сервисов и обработка логов.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="max-w-6xl mx-auto px-4 py-24 border-t-4 border-zinc-900">
+        <div class="mb-16 border-l-8 border-red-600 pl-4">
+            <h2 class="text-2xl font-black tracking-widest uppercase text-white">Выполненные прототипы // Кейсы</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-zinc-950 border-4 border-zinc-800 p-6 hover:border-cyan-400 transition duration-200">
+                <span class="text-[10px] font-bold text-cyan-400 uppercase tracking-widest">PROT_01 // LOGISTICS</span>
+                <h3 class="text-lg font-black mt-2 mb-3 uppercase text-white">Анализ рыночной волатильности и объемов</h3>
+                <p class="text-zinc-300 text-xs font-sans leading-relaxed mb-6">Скрипт на Python для обработки потоковых данных. Вычисляет динамический ATR, отсекает ложные ценовые шумы, рассчитывает математическое ожидание ходов и логирует аномальные всплески.</p>
+                <div class="flex gap-3 text-[10px] font-bold text-zinc-500">
+                    <span>#PYTHON</span> <span>#FASTAPI</span> <span>#PANDAS</span>
+                </div>
+            </div>
+            <div class="bg-zinc-950 border-4 border-zinc-800 p-6 hover:border-red-600 transition duration-200">
+                <span class="text-[10px] font-bold text-red-500 uppercase tracking-widest">PROT_02 // SYSTEM</span>
+                <h3 class="text-lg font-black mt-2 mb-3 uppercase text-white">Управляющая CRM-система доступа</h3>
+                <p class="text-zinc-300 text-xs font-sans leading-relaxed mb-6">Серверная веб-платформа с многоуровневым разделением ролей пользователей. Безопасная авторизация через OTP, кастомная панель логов действий и автоматическая фильтрация входящих заявок.</p>
+                <div class="flex gap-3 text-[10px] font-bold text-zinc-500">
+                    <span>#DJANGO</span> <span>#POSTGRESQL</span> <span>#TAILWIND</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="max-w-3xl mx-auto px-4 py-24 border-t-4 border-zinc-900 text-center">
+        <div class="border-4 border-red-600 p-8 max-w-xl mx-auto bg-zinc-950">
+            <h2 class="text-xl font-black uppercase mb-4 text-white">Установить безопасное соединение</h2>
+            <p class="text-xs text-zinc-400 font-sans mb-8 leading-relaxed">Опишите вашу техническую задачу в терминал связи. Время отклика разработчика — до 15 минут.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://t.me/zekprogg" target="_blank" class="px-6 py-3 bg-cyan-400 hover:bg-cyan-500 text-black font-black text-xs uppercase tracking-widest transition border-2 border-white">
+                    💬 Telegram Terminal
+                </a>
+                <a href="mailto:zhenyashportttt@gmail.com" class="px-6 py-3 bg-black hover:bg-zinc-900 text-white font-bold text-xs uppercase tracking-widest border-2 border-zinc-800 transition">
+                    ✉️ Secure Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t-4 border-zinc-900 text-center py-8 text-[10px] text-zinc-600 tracking-widest uppercase">
+        &copy; 2026 GENIUS.NET // STANDALONE CYBER PORTFOLIO
+    </footer>
+
+    <div class="fixed bottom-6 right-6 z-50">
+        <button id="chat-toggle" class="w-14 h-14 bg-black text-red-500 border-4 border-red-600 hover:bg-red-600 hover:text-white rounded-none flex items-center justify-center text-xl shadow-lg cursor-pointer transition font-bold">
+            🤖
+        </button>
+
+        <div id="chat-window" class="hidden fixed bottom-24 right-6 w-80 md:w-96 h-[460px] bg-black border-4 border-zinc-800 shadow-2xl flex flex-col overflow-hidden">
+            <div class="bg-zinc-950 p-4 border-b-4 border-zinc-900 flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></span>
+                    <span class="font-black text-xs text-cyan-400 tracking-wider uppercase">CORE_AI_NEURAL_V2</span>
+                </div>
+                <button id="chat-close" class="text-zinc-600 hover:text-red-500 cursor-pointer text-[10px] uppercase font-bold">✕ CLOSE</button>
+            </div>
+
+            <div id="chat-messages" class="flex-1 p-4 overflow-y-auto space-y-4 text-xs">
+                <div class="bg-zinc-950 border-2 border-zinc-900 p-3 text-zinc-300 max-w-[90%] msg-anim leading-relaxed">
+                    ► НЕЙРОСЕТЬ ПОДКЛЮЧЕНА. Задайте любой вопрос по разработке, автоматизации процессов, парсингу данных или условиям сотрудничества. Я сгенерирую ответ в реальном времени.
+                </div>
+            </div>
+
+            <div id="chat-typing" class="hidden px-4 py-2 text-[10px] text-red-500 font-bold uppercase tracking-widest animate-pulse">
+                ▲ ИИ ДУМАЕТ / ОБРАБОТКА НЕЙРОНОВ...
+            </div>
+
+            <div class="p-3 border-t-4 border-zinc-900 bg-zinc-950 flex gap-2">
+                <input id="chat-input" type="text" placeholder="Введите ваш вопрос к ИИ..." class="flex-1 bg-black border-2 border-zinc-800 px-3 py-2 text-xs focus:outline-none focus:border-cyan-500 text-white placeholder-zinc-700">
+                <button id="chat-send" class="bg-red-600 hover:bg-red-500 text-white font-bold px-4 py-2 text-xs uppercase tracking-wider transition cursor-pointer">
+                    EXEC
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const chatToggle = document.getElementById('chat-toggle');
+        const chatWindow = document.getElementById('chat-window');
+        const chatClose = document.getElementById('chat-close');
+        const chatInput = document.getElementById('chat-input');
+        const chatSend = document.getElementById('chat-send');
+        const chatMessages = document.getElementById('chat-messages');
+        const chatTyping = document.getElementById('chat-typing');
+
+        chatToggle.addEventListener('click', () => {
+            chatWindow.classList.toggle('hidden');
+            if(!chatWindow.classList.contains('hidden')) chatInput.focus();
+        });
+        chatClose.addEventListener('click', () => chatWindow.classList.add('hidden'));
+
+        function addMessage(text, isUser = false) {
+            const container = document.createElement('div');
+            container.className = isUser ? "flex justify-end" : "flex justify-start";
+            
+            const msgDiv = document.createElement('div');
+            msgDiv.className = isUser 
+                ? "bg-zinc-900 border-2 border-red-600 text-white p-3 max-w-[90%] msg-anim text-right leading-relaxed" 
+                : "bg-zinc-950 border-2 border-zinc-900 text-zinc-300 p-3 max-w-[90%] msg-anim leading-relaxed";
+            
+            msgDiv.innerText = text;
+            container.appendChild(msgDiv);
+            chatMessages.appendChild(container);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        async function sendMessage() {
+            const text = chatInput.value.trim();
+            if (!text) return;
+
+            addMessage(text, true);
+            chatInput.value = '';
+            chatTyping.classList.remove('hidden');
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: text })
+                });
+                
+                const data = await response.json();
+                chatTyping.classList.add('hidden');
+                addMessage(data.response, false);
+            } catch (error) {
+                chatTyping.classList.add('hidden');
+                addMessage("► ОШИБКА: Нейросеть перегружена или сервер FastAPI отключен.", false);
+            }
+        }
+
+        chatSend.addEventListener('click', sendMessage);
+        chatInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') sendMessage(); });
+    </script>
+
+</body>
+</html>
